@@ -52,7 +52,7 @@ with open(bankbudget) as RevData:
 # calculate the Average Revenue Change
 rev_avg = sum(rev_chg_lst) / len(rev_chg_lst)
 
-#Print the results and Save Output file
+#Print the results and Save Output file as text file
 
 output = (
         f"\nFinancial Analysis\n"
